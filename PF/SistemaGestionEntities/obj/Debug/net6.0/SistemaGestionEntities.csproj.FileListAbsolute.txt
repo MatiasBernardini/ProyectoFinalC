@@ -9,3 +9,15 @@ C:\Users\Usuario\Desktop\proyectoFinalC#\SistemaGestionEntities\obj\Debug\net6.0
 C:\Users\Usuario\Desktop\proyectoFinalC#\SistemaGestionEntities\obj\Debug\net6.0\refint\SistemaGestionEntities.dll
 C:\Users\Usuario\Desktop\proyectoFinalC#\SistemaGestionEntities\obj\Debug\net6.0\SistemaGestionEntities.pdb
 C:\Users\Usuario\Desktop\proyectoFinalC#\SistemaGestionEntities\obj\Debug\net6.0\ref\SistemaGestionEntities.dll
+C:\Users\Usuario\Desktop\proyectoFinalC#\ProyectoFinalC\PF\SistemaGestionEntities\bin\Debug\net6.0\SistemaGestionEntities.deps.json
+C:\Users\Usuario\Desktop\proyectoFinalC#\ProyectoFinalC\PF\SistemaGestionEntities\bin\Debug\net6.0\SistemaGestionEntities.dll
+C:\Users\Usuario\Desktop\proyectoFinalC#\ProyectoFinalC\PF\SistemaGestionEntities\bin\Debug\net6.0\SistemaGestionEntities.pdb
+C:\Users\Usuario\Desktop\proyectoFinalC#\ProyectoFinalC\PF\SistemaGestionEntities\obj\Debug\net6.0\SistemaGestionEntities.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Usuario\Desktop\proyectoFinalC#\ProyectoFinalC\PF\SistemaGestionEntities\obj\Debug\net6.0\SistemaGestionEntities.AssemblyInfoInputs.cache
+C:\Users\Usuario\Desktop\proyectoFinalC#\ProyectoFinalC\PF\SistemaGestionEntities\obj\Debug\net6.0\SistemaGestionEntities.AssemblyInfo.cs
+C:\Users\Usuario\Desktop\proyectoFinalC#\ProyectoFinalC\PF\SistemaGestionEntities\obj\Debug\net6.0\SistemaGestionEntities.csproj.CoreCompileInputs.cache
+C:\Users\Usuario\Desktop\proyectoFinalC#\ProyectoFinalC\PF\SistemaGestionEntities\obj\Debug\net6.0\SistemaGestionEntities.sourcelink.json
+C:\Users\Usuario\Desktop\proyectoFinalC#\ProyectoFinalC\PF\SistemaGestionEntities\obj\Debug\net6.0\SistemaGestionEntities.dll
+C:\Users\Usuario\Desktop\proyectoFinalC#\ProyectoFinalC\PF\SistemaGestionEntities\obj\Debug\net6.0\refint\SistemaGestionEntities.dll
+C:\Users\Usuario\Desktop\proyectoFinalC#\ProyectoFinalC\PF\SistemaGestionEntities\obj\Debug\net6.0\SistemaGestionEntities.pdb
+C:\Users\Usuario\Desktop\proyectoFinalC#\ProyectoFinalC\PF\SistemaGestionEntities\obj\Debug\net6.0\ref\SistemaGestionEntities.dll

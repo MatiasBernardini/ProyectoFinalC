@@ -13,11 +13,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Usuario\\Desktop\\proyectoFinalC#\\SistemaGestionEntities\\SistemaGestionEntities.csproj",
+      "projectUniqueName": "C:\\Users\\Usuario\\Desktop\\proyectoFinalC#\\ProyectoFinalC\\PF\\SistemaGestionEntities\\SistemaGestionEntities.csproj",
       "projectName": "SistemaGestionEntities",
-      "projectPath": "C:\\Users\\Usuario\\Desktop\\proyectoFinalC#\\SistemaGestionEntities\\SistemaGestionEntities.csproj",
+      "projectPath": "C:\\Users\\Usuario\\Desktop\\proyectoFinalC#\\ProyectoFinalC\\PF\\SistemaGestionEntities\\SistemaGestionEntities.csproj",
       "packagesPath": "C:\\Users\\Usuario\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\Usuario\\Desktop\\proyectoFinalC#\\SistemaGestionEntities\\obj\\",
+      "outputPath": "C:\\Users\\Usuario\\Desktop\\proyectoFinalC#\\ProyectoFinalC\\PF\\SistemaGestionEntities\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\Usuario\\AppData\\Roaming\\NuGet\\NuGet.Config",

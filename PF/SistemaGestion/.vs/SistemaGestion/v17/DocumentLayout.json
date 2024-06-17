@@ -1,10 +1,16 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "C:\\Users\\Usuario\\Desktop\\proyectoFinalC#\\SistemaGestion\\",
+  "WorkspaceRootPath": "C:\\Users\\Usuario\\Desktop\\proyectoFinalC#\\ProyectoFinalC\\PF\\SistemaGestion\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{064F6A6C-000E-4B34-A637-12D656A2A49C}|SistemaGestion.csproj|c:\\users\\usuario\\desktop\\proyectofinalc#\\sistemagestion\\productovendidoform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{064F6A6C-000E-4B34-A637-12D656A2A49C}|SistemaGestion.csproj|c:\\users\\usuario\\desktop\\proyectofinalc#\\proyectofinalc\\pf\\sistemagestion\\productovendidoform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{064F6A6C-000E-4B34-A637-12D656A2A49C}|SistemaGestion.csproj|solutionrelative:productovendidoform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{260660CF-86A0-497A-888F-FAE6348261FB}|..\\WebApplication1\\WebApplication1.csproj|c:\\users\\usuario\\desktop\\proyectofinalc#\\proyectofinalc\\pf\\webapplication1\\controllers\\productocontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{260660CF-86A0-497A-888F-FAE6348261FB}|..\\WebApplication1\\WebApplication1.csproj|c:\\users\\usuario\\desktop\\proyectofinalc#\\proyectofinalc\\pf\\webapplication1\\controllers\\usuariocontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -14,17 +20,43 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 0,
+          "SelectedChildIndex": 2,
           "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "ProductoController.cs",
+              "DocumentMoniker": "C:\\Users\\Usuario\\Desktop\\proyectoFinalC#\\ProyectoFinalC\\PF\\WebApplication1\\Controllers\\ProductoController.cs",
+              "RelativeDocumentMoniker": "..\\WebApplication1\\Controllers\\ProductoController.cs",
+              "ToolTip": "C:\\Users\\Usuario\\Desktop\\proyectoFinalC#\\ProyectoFinalC\\PF\\WebApplication1\\Controllers\\ProductoController.cs",
+              "RelativeToolTip": "..\\WebApplication1\\Controllers\\ProductoController.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABEAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-17T00:16:12.951Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "UsuarioController.cs",
+              "DocumentMoniker": "C:\\Users\\Usuario\\Desktop\\proyectoFinalC#\\ProyectoFinalC\\PF\\WebApplication1\\Controllers\\UsuarioController.cs",
+              "RelativeDocumentMoniker": "..\\WebApplication1\\Controllers\\UsuarioController.cs",
+              "ToolTip": "C:\\Users\\Usuario\\Desktop\\proyectoFinalC#\\ProyectoFinalC\\PF\\WebApplication1\\Controllers\\UsuarioController.cs",
+              "RelativeToolTip": "..\\WebApplication1\\Controllers\\UsuarioController.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAwAAAAtAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-16T21:28:21.239Z",
+              "EditorCaption": ""
+            },
             {
               "$type": "Document",
               "DocumentIndex": 0,
               "Title": "ProductoVendidoForm.cs",
-              "DocumentMoniker": "C:\\Users\\Usuario\\Desktop\\proyectoFinalC#\\SistemaGestion\\ProductoVendidoForm.cs",
+              "DocumentMoniker": "C:\\Users\\Usuario\\Desktop\\proyectoFinalC#\\ProyectoFinalC\\PF\\SistemaGestion\\ProductoVendidoForm.cs",
               "RelativeDocumentMoniker": "ProductoVendidoForm.cs",
-              "ToolTip": "C:\\Users\\Usuario\\Desktop\\proyectoFinalC#\\SistemaGestion\\ProductoVendidoForm.cs",
+              "ToolTip": "C:\\Users\\Usuario\\Desktop\\proyectoFinalC#\\ProyectoFinalC\\PF\\SistemaGestion\\ProductoVendidoForm.cs",
               "RelativeToolTip": "ProductoVendidoForm.cs",
-              "ViewState": "AQIAAGMAAAAAAAAAAAAAAHUAAAARAAAA",
+              "ViewState": "AQIAAAEAAAAAAAAAAAAAAHAAAAARAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-06-07T05:45:23.664Z",
               "EditorCaption": ""

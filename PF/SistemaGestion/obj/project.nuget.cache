@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "hFcRcoxPmAc7BhkI4l7L4rqixlURCYd0PzNPxoMVqV1mMbOozzCtNFdSXZBh/cvJWdYpD91M/EjeA6lDYE6kjw==",
+  "dgSpecHash": "5bEFN3w/+2VJjHlLVT4j+GEXzVrshKl1tbhB46wetMgMiO1iiSOK+2opFjCQozprm9OVYoQxpAIOue3tObbrpw==",
   "success": true,
-  "projectFilePath": "C:\\Users\\Usuario\\Desktop\\proyectoFinalC#\\SistemaGestion\\SistemaGestion.csproj",
+  "projectFilePath": "C:\\Users\\Usuario\\Desktop\\proyectoFinalC#\\ProyectoFinalC\\PF\\SistemaGestion\\SistemaGestion.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Usuario\\.nuget\\packages\\microsoft.netcore.platforms\\3.1.0\\microsoft.netcore.platforms.3.1.0.nupkg.sha512",
     "C:\\Users\\Usuario\\.nuget\\packages\\microsoft.win32.registry\\4.7.0\\microsoft.win32.registry.4.7.0.nupkg.sha512",

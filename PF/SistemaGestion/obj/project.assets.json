@@ -529,11 +529,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Usuario\\Desktop\\proyectoFinalC#\\SistemaGestion\\SistemaGestion.csproj",
+      "projectUniqueName": "C:\\Users\\Usuario\\Desktop\\proyectoFinalC#\\ProyectoFinalC\\PF\\SistemaGestion\\SistemaGestion.csproj",
       "projectName": "SistemaGestion",
-      "projectPath": "C:\\Users\\Usuario\\Desktop\\proyectoFinalC#\\SistemaGestion\\SistemaGestion.csproj",
+      "projectPath": "C:\\Users\\Usuario\\Desktop\\proyectoFinalC#\\ProyectoFinalC\\PF\\SistemaGestion\\SistemaGestion.csproj",
       "packagesPath": "C:\\Users\\Usuario\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\Usuario\\Desktop\\proyectoFinalC#\\SistemaGestion\\obj\\",
+      "outputPath": "C:\\Users\\Usuario\\Desktop\\proyectoFinalC#\\ProyectoFinalC\\PF\\SistemaGestion\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\Usuario\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -550,11 +550,11 @@
         "net6.0-windows7.0": {
           "targetAlias": "net6.0-windows",
           "projectReferences": {
-            "C:\\Users\\Usuario\\Desktop\\proyectoFinalC#\\SistemaGestionBussiness\\SistemaGestionBussiness.csproj": {
-              "projectPath": "C:\\Users\\Usuario\\Desktop\\proyectoFinalC#\\SistemaGestionBussiness\\SistemaGestionBussiness.csproj"
+            "C:\\Users\\Usuario\\Desktop\\proyectoFinalC#\\ProyectoFinalC\\PF\\SistemaGestionBussiness\\SistemaGestionBussiness.csproj": {
+              "projectPath": "C:\\Users\\Usuario\\Desktop\\proyectoFinalC#\\ProyectoFinalC\\PF\\SistemaGestionBussiness\\SistemaGestionBussiness.csproj"
             },
-            "C:\\Users\\Usuario\\Desktop\\proyectoFinalC#\\SistemaGestionEntities\\SistemaGestionEntities.csproj": {
-              "projectPath": "C:\\Users\\Usuario\\Desktop\\proyectoFinalC#\\SistemaGestionEntities\\SistemaGestionEntities.csproj"
+            "C:\\Users\\Usuario\\Desktop\\proyectoFinalC#\\ProyectoFinalC\\PF\\SistemaGestionEntities\\SistemaGestionEntities.csproj": {
+              "projectPath": "C:\\Users\\Usuario\\Desktop\\proyectoFinalC#\\ProyectoFinalC\\PF\\SistemaGestionEntities\\SistemaGestionEntities.csproj"
             }
           }
         }
