@@ -18,6 +18,10 @@ namespace SistemaGestionBussiness
         public static Venta GetSale(int saleId)
         {
             VentaData ventaData = new VentaData();
+            if (!ventaData.SaleExists(saleId))
+            {
+                throw new ArgumentException($"No se encontró la venta con Id: {saleId}");
+            }
 
             return ventaData.GetSale(saleId);
         }
@@ -32,6 +36,10 @@ namespace SistemaGestionBussiness
         public static bool UpdateSale(int saleId, Venta sale)
         {
             VentaData ventaData = new VentaData();
+            if (!ventaData.SaleExists(saleId))
+            {
+                throw new ArgumentException($"No se encontró la venta con Id: {saleId}");
+            }
 
             return ventaData.UpdateSale(saleId, sale);
         }
@@ -39,6 +47,10 @@ namespace SistemaGestionBussiness
         public static bool DeleteSale(int saleId)
         {
             VentaData ventaData = new VentaData();
+            if (!ventaData.SaleExists(saleId))
+            {
+                throw new ArgumentException($"No se encontró la venta con Id: {saleId}");
+            }
 
             return ventaData.DeleteSale(saleId);
         }

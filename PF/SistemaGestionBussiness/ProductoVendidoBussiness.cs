@@ -18,6 +18,10 @@ namespace SistemaGestionBussiness
         public static ProductoVendido GetSoldProduct(int soldProductId)
         {
             ProductoVendidoData productoVendidoData = new ProductoVendidoData();
+            if(!productoVendidoData.SoldProductExists(soldProductId))
+            {
+                throw new ArgumentException($"No se encontró el producto vendido con Id: {soldProductId}");
+            }
 
             return productoVendidoData.GetSoldProduct(soldProductId);
         }
@@ -32,6 +36,10 @@ namespace SistemaGestionBussiness
         public static bool UpdateSoldProduct(int soldProductId, ProductoVendido soldProduct)
         {
             ProductoVendidoData productoVendidoData = new ProductoVendidoData();
+            if (!productoVendidoData.SoldProductExists(soldProductId))
+            {
+                throw new ArgumentException($"No se encontró el producto vendido con Id: {soldProductId}");
+            }
 
             return productoVendidoData.UpdateSoldProduct(soldProductId, soldProduct);
         }
@@ -39,6 +47,10 @@ namespace SistemaGestionBussiness
         public static bool DeleteSoldProduct(int soldProductId)
         {
             ProductoVendidoData productoVendidoData = new ProductoVendidoData();
+            if (!productoVendidoData.SoldProductExists(soldProductId))
+            {
+                throw new ArgumentException($"No se encontró el producto vendido con Id: {soldProductId}");
+            }
 
             return productoVendidoData.DeleteSoldProduct(soldProductId);
         }

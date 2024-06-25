@@ -49,6 +49,21 @@ namespace SistemaGestionData
 
         }
 
+        public string GetUserNameById(int id)
+        {
+            using (SqlConnection connection = new SqlConnection(connectionString))
+            {
+                string query = "SELECT Nombre FROM Usuario WHERE Id = @id";
+                SqlCommand command = new SqlCommand(query, connection);
+                command.Parameters.AddWithValue("@id", id);
+
+                connection.Open();
+                object result = command.ExecuteScalar();
+
+                return result != null ? result.ToString() : null;
+            }
+        }
+
         public static List<Usuario> ListUser()
         {
             string connectionString = @"Server=localhost\SQLEXPRESS;Database=SistemaGestion;Trusted_Connection=True;";
@@ -133,6 +148,19 @@ namespace SistemaGestionData
                 return command.ExecuteNonQuery() > 0;
             }
 
+        }
+
+        public bool UserExists(int userId)
+        {
+            using (SqlConnection connection = new SqlConnection(this.connectionString))
+            {
+                string query = "SELECT COUNT(0) FROM Usuario WHERE Id = @id";
+                SqlCommand command = new SqlCommand(query, connection);
+                command.Parameters.AddWithValue("id", userId);
+                connection.Open();
+
+                return Convert.ToBoolean(command.ExecuteScalar());
+            }
         }
     }
 }

@@ -123,5 +123,18 @@ namespace SistemaGestionData
             }
 
         }
+
+        public bool SoldProductExists(int soldProductId)
+        {
+            using (SqlConnection connection = new SqlConnection(this.connectionString))
+            {
+                string query = "SELECT COUNT(0) FROM ProductoVendido WHERE Id = @id";
+                SqlCommand command = new SqlCommand(query, connection);
+                command.Parameters.AddWithValue("id", soldProductId);
+                connection.Open();
+
+                return Convert.ToBoolean(command.ExecuteScalar());
+            }
+        }
     }
 }

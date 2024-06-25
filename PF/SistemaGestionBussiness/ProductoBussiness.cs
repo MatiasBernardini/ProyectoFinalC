@@ -18,6 +18,10 @@ namespace SistemaGestionBussiness
         public static Producto GetProduct(int productId)
         {
             ProductoData productoData = new ProductoData();
+            if (!productoData.ProductExists(productId))
+            {
+                throw new ArgumentException($"No se encontró producto con Id: {productId}");
+            }
 
             return productoData.GetProduct(productId);
         }
@@ -32,6 +36,10 @@ namespace SistemaGestionBussiness
         public static bool UpdateProduct(int productId, Producto product)
         {
             ProductoData productoData = new ProductoData();
+            if (!productoData.ProductExists(productId))
+            {
+                throw new ArgumentException($"No se encontró producto con Id: {productId}. No se puede actualizar.");
+            }
 
             return productoData.UpdateProduct(productId, product);
         }
@@ -39,6 +47,10 @@ namespace SistemaGestionBussiness
         public static bool DeleteProduct(int productId)
         {
             ProductoData productoData = new ProductoData();
+            if (!productoData.ProductExists(productId))
+            {
+                throw new ArgumentException($"No se encontró producto con Id: {productId}. No se puede eliminar.");
+            }
 
             return productoData.DeleteProduct(productId);
         }

@@ -1,4 +1,4 @@
-﻿using Microsoft.AspNetCore.Http;
+﻿//using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
 using SistemaGestionBussiness;
 using SistemaGestionEntities;
@@ -16,22 +16,95 @@ namespace WebApplication1.Controllers
             return ProductoBussiness.ListProduct().ToArray();
         }
 
-        [HttpPost(Name = "CreateProduct")]
-        public void Post([FromBody] Producto producto)
+        [HttpGet("{id}")]
+        public IActionResult GetProductById(int id)
         {
-            ProductoBussiness.CreateProduct(producto);
+            try
+            {
+                Producto producto = ProductoBussiness.GetProduct(id);
+
+                if (producto == null)
+                {
+                    return NotFound();
+                }
+
+                return Ok(producto);
+            }
+            catch (Exception ex)
+            {
+                return StatusCode(500, $"Internal server error: {ex.Message}");
+            }
+
+        }
+
+        [HttpPost(Name = "CreateProduct")]
+        public IActionResult Post([FromBody] Producto producto)
+        {
+            if (producto == null)
+            {
+                return BadRequest("El producto no puede ser nulo, debe completar lo solicitado.");
+            }
+
+            try
+            {
+                ProductoBussiness.CreateProduct(producto);
+
+                return Ok("Producto creado exitosamente");
+            }
+            catch (Exception ex)
+            {
+                return StatusCode(500, $"Internal server error: {ex.Message}");
+            }
         }
 
         [HttpPut ("{id}", Name = "UpdateProduct")]
-        public void Put(int id, [FromBody] Producto producto)
+        public IActionResult Put(int id, [FromBody] Producto producto)
         {
-            ProductoBussiness.UpdateProduct(id, producto);
+            if (producto == null)
+            {
+                return BadRequest("El producto no puede ser nulo, debe completar lo solicitado.");
+            }
+            if (id <= 0)
+            {
+                return BadRequest("El id no puede ser nulo o negativo, debe completar lo solicitado.");
+            }
+
+            try
+            {
+                ProductoBussiness.UpdateProduct(id, producto);
+
+                return Ok("Producto actualizado exitosamente");
+            }
+            catch (Exception ex)
+            {
+                return StatusCode(500, $"Internal server error: {ex.Message}");
+            }
         }
 
         [HttpDelete (Name = "DeleteProduct")]
-        public void Delete([FromBody] int id)
+        public IActionResult Delete([FromBody] int id)
         {
-            ProductoBussiness.DeleteProduct(id);
+            if (id <= 0)
+            {
+                return BadRequest("El id no puede negativo, debe completar lo solicitado.");
+            }
+
+            try
+            {
+                var idProduct = ProductoBussiness.GetProduct(id);
+                if (idProduct == null)
+                {
+                    return NotFound($"No existe ningun producto con el id: {id}");
+                }
+
+                ProductoBussiness.DeleteProduct(id);
+
+                return Ok("Producto eliminado exitosamente");
+            }
+            catch (Exception ex)
+            {
+                return StatusCode(500, $"Internal server error: {ex.Message}");
+            }
         }
     }
 }

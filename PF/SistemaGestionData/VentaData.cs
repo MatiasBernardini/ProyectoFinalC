@@ -120,5 +120,18 @@ namespace SistemaGestionData
             }
 
         }
+
+        public bool SaleExists(int saleId)
+        {
+            using (SqlConnection connection = new SqlConnection(this.connectionString))
+            {
+                string query = "SELECT COUNT(0) FROM Venta WHERE Id = @id";
+                SqlCommand command = new SqlCommand(query, connection);
+                command.Parameters.AddWithValue("id", saleId);
+                connection.Open();
+
+                return Convert.ToBoolean(command.ExecuteScalar());
+            }
+        }
     }
 }
